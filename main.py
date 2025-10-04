@@ -4,7 +4,7 @@ import json
 from typing import List, Dict, Any
 from playwright.async_api import async_playwright
 
-COOKIE = 'c_user=100028314736062; xs=11%3AUKNtV4sJKV2PjQ%3A2%3A1740376157%3A-1%3A-1%3A%3AAcWPQDQL6KNaIxARUyDTHyTRJ_YhgmrfLvVM_wTVXt1v1w; fr=1RczojDhQbCIt4Cx8.AWc6P6mmn1eepXDJIy-mmtoeGgf9i4oIKf251VWgPfM6LpAx408.Bo4NIM..AAA.0.0.Bo4NIM.AWeKhagPUZ0TmgSFyqc2glBrxis; datr=igG8Z8Soz4vFnp6jMwj9R-i7'
+COOKIE = 'c_user=*******8; xs=*******; fr=*****; datr=******'
 TARGET_URL = 'https://www.facebook.com/nasa/'
 
 DATA_DIR = 'data'
@@ -279,4 +279,5 @@ async def main():
     print(f'Saved {len(posts)} parsed posts to {PARSED_OUT}')
 
 if __name__ == '__main__':
+
     asyncio.run(main())
